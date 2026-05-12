@@ -13,9 +13,13 @@ async function getPokemon() {
             <p>Altura: ${json.height}</p>
             <p>Peso: ${json.weight}</p>
             <p>Tipo: ${tipo}</p>
+            <p>Normal: ${json.name}
             <img src="${json.sprites.front_default}" style = "widht: 60%;height: 280px;">
+            </p>
+            <p>Shiny: ${json.name}
             <img src="${json.sprites.front_shiny}" style="width:350px; height: 280px;">
-        `;
+            </p>
+            `;  
         
 
    
